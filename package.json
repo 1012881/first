@@ -1,0 +1,24 @@
+﻿{
+  "name": "my_first_project",
+  "version": "1.0.0",
+  "description": "AI-assisted coding project built on Harness + Superpowers + OpenSpec",
+  "private": true,
+  "scripts": {
+    "dev": "vite src",
+    "build": "vite build src",
+    "preview": "vite preview src",
+    "openspec:propose": "openspec propose",
+    "openspec:apply": "openspec apply",
+    "openspec:archive": "openspec archive"
+  },
+  "keywords": [
+    "ai-coding",
+    "superpowers",
+    "openspec",
+    "harness"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^7.3.5"
+  }
+}

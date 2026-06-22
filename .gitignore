@@ -1,0 +1,36 @@
+﻿# 依赖
+node_modules/
+package-lock.json
+
+# 构建产物
+dist/
+build/
+.next/
+out/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+npm-debug.log*
+
+# 测试覆盖
+coverage/
+
+# openspec 归档（保留结构）
+!openspec/changes/archive/.gitkeep

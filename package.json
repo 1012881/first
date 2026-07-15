@@ -1,0 +1,30 @@
+{
+  "name": "sdd-harness",
+  "version": "0.1.0",
+  "description": "Agent development framework powered by Superpowers methodology and OpenSpec SDD, running on Qoder IDE",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Error: no linter configured\" && exit 1",
+    "format": "echo \"Error: no formatter configured\" && exit 1",
+    "openspec:init": "openspec init --tools qoder",
+    "openspec:update": "openspec update",
+    "openspec:list": "openspec list",
+    "openspec:view": "openspec view",
+    "superpowers:update": "git submodule update --remote superpowers"
+  },
+  "keywords": [
+    "agent",
+    "sdd",
+    "superpowers",
+    "openspec",
+    "qoder",
+    "harness"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

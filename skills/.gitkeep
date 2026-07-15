@@ -1,7 +1,0 @@
-This directory contains Harness-specific skills that extend Superpowers.
-Place custom SKILL.md files here following the Superpowers skill format:
-- Each skill in its own subdirectory: skills/<skill-name>/SKILL.md
-- Frontmatter with name and description fields
-- Follows Superpowers skill conventions
-
-Superpowers core skills are located in superpowers/skills/ (git submodule).
